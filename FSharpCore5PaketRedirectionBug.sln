@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharpCore5PaketRedirectionBug", "FSharpCore5PaketRedirectionBug\FSharpCore5PaketRedirectionBug.fsproj", "{1A4BAD6D-A3A8-453A-86DF-9F1D8C2B8748}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{AE7E8174-28F5-40A2-A611-B9505B942F8C}"
+ProjectSection(SolutionItems) = preProject
+	paket.dependencies = paket.dependencies
+	paket.lock = paket.lock
+EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{91EBD5B7-A896-4A5C-B4C7-225D01A185DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A4BAD6D-A3A8-453A-86DF-9F1D8C2B8748}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A4BAD6D-A3A8-453A-86DF-9F1D8C2B8748}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A4BAD6D-A3A8-453A-86DF-9F1D8C2B8748}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A4BAD6D-A3A8-453A-86DF-9F1D8C2B8748}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91EBD5B7-A896-4A5C-B4C7-225D01A185DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91EBD5B7-A896-4A5C-B4C7-225D01A185DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91EBD5B7-A896-4A5C-B4C7-225D01A185DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91EBD5B7-A896-4A5C-B4C7-225D01A185DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

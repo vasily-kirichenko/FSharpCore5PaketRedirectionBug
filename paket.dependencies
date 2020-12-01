@@ -1,0 +1,9 @@
+redirects: on
+framework: net462
+source https://api.nuget.org/v3/index.json
+
+nuget FSharp.Configuration 1.0.1
+nuget FSharp.Core redirects: force
+nuget NUnit ~> 3
+nuget NUnit.Runners ~> 3
+nuget NUnitTestAdapter 2.1.1
